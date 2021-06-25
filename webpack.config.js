@@ -81,7 +81,7 @@ module.exports = {
     isDevelopment && new ReactRefreshWebpackPlugin(),
     isProduction && new CleanWebpackPlugin(),
     isProduction && new MiniCssExtractPlugin(),
-    isProduction && new CssMinimizerPlugin(),
+    /*  isProduction && new CssMinimizerPlugin(), */
     new HtmlWebpackPlugin({
       title: "Webpack minimal",
       filename: "./index.html",
