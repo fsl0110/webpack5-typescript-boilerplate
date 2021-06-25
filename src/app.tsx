@@ -8,9 +8,13 @@ export const App = () => {
 
   return (
     <div>
-      <h1>Hello Webpack!!!</h1>
-      <button onClick={increase}>+</button>
-      <button onClick={decrease}>-</button>
+      <h1 className="text-red-700 text-2xl">Hello WEBPACK!!!</h1>
+      <button className="border bg-gray-400 px-2 mr-2" onClick={increase}>
+        +
+      </button>
+      <button className="border bg-gray-400 px-2 mr-2" onClick={decrease}>
+        -
+      </button>
       <input value={count} readOnly />
       <ES2016 count={count} />
       <ES2017 count={count} />
